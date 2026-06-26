@@ -1,0 +1,9 @@
+name = "morton-lawn-co"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Set this secret before deploying:
+# wrangler secret put RESEND_API_KEY
+
+[vars]
+FROM_EMAIL = "Morton Lawn Co <website@mortonlawns.com>"
